@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022",
+    "paths": {
+      "@pinn/api-client": ["packages/api-client/src/index.ts"],
+      "@pinn/api-client/*": ["packages/api-client/src/*"],
+      "@pinn/pages": ["packages/app-shell/src/index.ts"],
+      "@pinn/pages/*": ["packages/app-shell/src/*"],
+      "@pinn/types": ["packages/types/src/index.ts"],
+      "@pinn/types/*": ["packages/types/src/*"],
+      "@pinn/ui": ["packages/ui/src/index.ts"],
+      "@pinn/ui/*": ["packages/ui/src/*"],
+    },
+  },
+}

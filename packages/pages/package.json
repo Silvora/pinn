@@ -1,0 +1,20 @@
+{
+  "name": "@pinn/pages",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": "./src/styles.css"
+  },
+  "dependencies": {
+    "@pinn/api-client": "workspace:*",
+    "@pinn/types": "workspace:*",
+    "@pinn/ui": "workspace:*",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "check-types": "tsc -p tsconfig.json --noEmit"
+  }
+}

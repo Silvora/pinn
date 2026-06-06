@@ -1,0 +1,35 @@
+{
+  "name": "pinn",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "build:desktop": "turbo run build --filter=@pinn/desktop",
+    "build:extension": "turbo run build --filter=@pinn/extension",
+    "build:web": "turbo run build --filter=@pinn/web",
+    "check-types": "turbo run check-types",
+    "dev": "turbo run dev",
+    "dev:desktop": "turbo run dev --filter=@pinn/desktop",
+    "dev:extension": "turbo run dev --filter=@pinn/extension",
+    "dev:web": "turbo run dev --filter=@pinn/web",
+    "format": "prettier --write \"**/*.{ts,tsx,css,html,json,md}\""
+  },
+  "devDependencies": {
+    "@wxt-dev/module-react": "^1.1.5",
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "prettier": "^3.7.4",
+    "tailwindcss": "^4.1.11",
+    "turbo": "^2.9.16",
+    "typescript": "5.9.2",
+    "vite": "^7.0.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "wxt": "^0.20.6"
+  },
+  "packageManager": "pnpm@11.2.2",
+  "engines": {
+    "node": ">=20"
+  }
+}
