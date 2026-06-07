@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import List
 
 import yaml
-from pydantic import BaseModel
+from pydantic import BaseModel, SecretStr
 
 CONFIG_PATH = Path(__file__).resolve().parents[1] / "config.yaml"
 
@@ -20,7 +20,7 @@ class AppConfig(BaseModel):
 class LLMConfig(BaseModel):
     model: str = ""
     temperature: float = 0.7
-    api_key: str = ""
+    api_key: SecretStr | None = None
     base_url: str = ""
 
 class ServerConfig(BaseModel):
