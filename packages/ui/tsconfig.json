@@ -2,11 +2,9 @@
   "extends": "../../tsconfig.base.json",
   "include": ["src/**/*"],
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@/lib/*": ["./src/lib/*"],
-      "@/components/*": ["./src/components/*"],
       "@/components/ui/*": ["./src/components/*"],
     },
   },

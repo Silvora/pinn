@@ -61,8 +61,8 @@ packages/
 建议使用子路径导入：
 
 ```ts
-import { Button } from '@pinn/ui/components/button'
-import { Card } from '@pinn/ui/components/card'
+import { Button } from '@pinn/ui/components/ui/button'
+import { Card } from '@pinn/ui/components/ui/card'
 ```
 
 ### `@pinn/api-client`
@@ -129,7 +129,7 @@ pnpm format
 ```
 
 ```ts
-import { Button } from '@pinn/ui/components/button'
+import { Button } from '@pinn/ui/components/ui/button'
 ```
 
 ## 三端说明

@@ -4,4 +4,9 @@ packages:
 allowBuilds:
   electron: true
   esbuild: true
+  msw: true
   spawn-sync: false
+minimumReleaseAgeExclude:
+  - shadcn@4.11.0
+  - '@ai-sdk/gateway@3.0.126'
+  - ai@6.0.198

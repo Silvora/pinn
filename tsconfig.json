@@ -3,7 +3,7 @@
   "files": [],
   "references": [
     { "path": "./packages/api-client" },
-    { "path": "./packages/app-shell" },
+    { "path": "./packages/pages" },
     { "path": "./packages/types" },
     { "path": "./packages/ui" },
     { "path": "./apps/web" },

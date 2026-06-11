@@ -12,7 +12,7 @@ if (!container) {
 
 createRoot(container).render(
   <StrictMode>
-    <div className="w-100">
+    <div className="min-h-[640px] w-[420px] max-w-[100vw] overflow-hidden rounded-[28px]">
       <PinnApp platform="extension" />
     </div>
   </StrictMode>,
